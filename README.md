@@ -1,4 +1,4 @@
-# NDReactBoilerplate
+# ND React Boilerplate
 NetDragon XM Engineering front end React Bolierplate, based on the React + Redux + Webpack
 
 
