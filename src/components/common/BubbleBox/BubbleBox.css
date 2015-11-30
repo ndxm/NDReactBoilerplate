@@ -1,0 +1,59 @@
+.box{
+    position: absolute;
+    left: 0px;
+    background-color: rgba(0,0,0,.85);
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    top:30px;
+    width: 350px;
+    z-index: 3;
+}
+.box-inner{
+    padding-top: 5px;
+}
+.btns{
+    width: 60px;
+    margin: 5px auto;
+}
+.btn-confirm{
+    width: 60px;
+    text-align: center;
+    display: inline-block;
+    height: 23px;
+    line-height: 23px;
+    margin-bottom: 5px;
+}
+.btn-confirm{
+    background-color: #c40000;
+    color: #FFFFFF;
+    border-radius:3px;
+}
+.btn-confirm:hover{
+    background-color: #990606;
+}
+
+
+.item{
+    display: inline-block;
+    width: 150px;
+    overflow: hidden;
+    padding: 0px 5px;
+    height: 23px;
+    line-height: 23px;
+    margin:5px 0px 5px 10px;
+    color: #83858B;
+    border: 1px  dotted #83858B;
+    border-radius: 2px;
+}
+.item i{
+    margin-right: 5px;
+    color: #4E5056;
+}
+.selected i{
+    color:#E4393C ;
+}
+
+.selected{
+    color: #E4393C;
+    border: 1px  dotted #E4393C;
+}

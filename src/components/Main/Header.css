@@ -1,0 +1,42 @@
+.header {
+    background-color: #005CA1;
+    border-bottom:1px solid #005CA1;
+    height: 59px;
+}
+.header-inner{
+    background-color:#2d353c;
+}
+.title {
+    background-image: url('../../../img/bg_header-01.png');
+    background-position: bottom left;
+    background-repeat: repeat-x;
+    background-color: #005CA1;
+    text-shadow: 0 1px 0 #ccc;
+    font-size: 18px;
+    font-weight: normal;
+    color: #fff;
+    height: 59px;
+    width: 200px;
+    line-height: 59px;
+    text-align: center;
+    display: inline-block;
+}
+
+.dropdown-item{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 20px;
+    box-shadow: 0 1px 1px rgba(150,150,150,0.2);
+    font-size: 15px;
+    color: #333;
+
+}
+.dropdown-item:hover{
+    background:#F1F5F8;
+    color: #000;
+}
+.dropdown-icon{
+    margin-left: 10px;
+    margin-right: 15px;
+}

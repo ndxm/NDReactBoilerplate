@@ -1,0 +1,24 @@
+.dropdown-box{
+    position: relative;
+}
+.dropdown-title{
+    display: block;
+    text-align: center;
+    color: #FFFFFF;
+}
+.dropdown-title:hover{
+    background:rgba(255,255,255,0.1);
+}
+.dropdown-icon{
+    margin-left: 20px;
+}
+
+.dropdown-body{
+    position: absolute;
+    background: #fff;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 0 3px #ddd;
+    z-index: 5;
+    border:1px solid #d9dadc;
+}

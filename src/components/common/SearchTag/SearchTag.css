@@ -1,0 +1,15 @@
+.tag{
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    border: 1px dotted #c40000;
+    color: #c40000;
+    padding: 0px 10px;
+    margin-left: 15px;
+}
+.tag:hover{
+    border: 1px solid #c40000;
+}
+.remove{
+    margin-left: 10px;
+}

@@ -1,0 +1,12 @@
+
+.btn-cancel{
+     composes : btn-primary from '../style/button.css';
+     width:100px;
+     margin-right: 10px;
+ }
+.btn-confirm{
+    composes : btn-blue from '../style/button.css';
+    width:100px;
+    margin-left: 10px;
+    text-align: center;
+}

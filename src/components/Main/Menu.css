@@ -1,0 +1,167 @@
+.menus {
+    height: calc(100% - 60px);
+    width: 199px;
+    background-color: #283441;
+    border-right: #d9dadc 1px solid;
+    position: relative;
+}
+
+.menus-toggle {
+    height: calc(100% - 60px);
+    width: 50px;
+    background-color: #F1F5F8;
+    border-right: #E2E2E2 1px solid;
+    position: relative;
+}
+
+.close-btn {
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    color: #d9dadc;
+    font-size: 16px;
+    border: 1px solid #3D4853;
+    padding: 20px 3px;
+    text-align: center;
+    z-index: 5;
+    border-right: 0px;
+}
+
+.close-btn:hover {
+    background-color: #232a2f;
+    color: #fff;
+}
+
+.menus-panel-item {
+    margin-bottom: 5px;
+}
+
+.menu-home{
+    height: 48px;
+    color: #919A9F;
+    background: #313E4A;
+    padding-left: 15px;
+    line-height: 48px;
+    overflow: hidden;
+    border-top: 1px solid #3D4853;
+    border-bottom: 1px solid #333333;
+    font-size:16px;
+}
+
+.menu-home i{
+    font-size:22px;
+    vertical-align: middle;
+    margin-right:5px;
+}
+
+.menu-name {
+    display: block;
+    height: 48px;
+    color: #FFFFFF;
+    background: #313E4A;
+    padding-left: 15px;
+    line-height: 48px;
+    overflow: hidden;
+    border-top: 1px solid #3D4853;
+    border-bottom: 1px solid #333333;
+    border-left: 5px solid #52A0F5;
+    overflow: hidden;
+    text-transform: none;
+    word-spacing: normal;
+}
+
+.menus-hide {
+    display: none;
+}
+
+.menus-list{
+    background-color: #283441;
+    color: #999999;
+    list-style: none;
+    margin: 0px;
+}
+
+.menus-list li:last-child {
+    margin-top: 0px;
+}
+
+.menus-list li a {
+    display: block;
+    height: 44px;
+    line-height: 44px;
+    font-size: 15px;
+    color: rgb(102, 102, 102);
+    padding-left: 45px;
+    position: relative;
+}
+
+.menus-list li i {
+    position: absolute;
+    left: 20px;
+    font-size: 16px;
+    top: 13px;
+}
+
+.menus-list li a.active, .menus-list li a:hover {
+    background-color: #232a2f;
+    color: #a8acb1;
+    transition: all 0.1s ease;
+}
+
+.menus-list li a.active {
+    height: 42px;
+    line-height: 42px;
+    background:#232a2f;
+}
+
+.toggle-menu-item {
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 9px;
+    background-color: #EEEEEE;
+    border: 1px solid #d9dadc;
+    border-radius: 2px;
+    color: #000;
+    margin-top: 10px;
+}
+
+.toggle-menu-item:hover {
+    background-color: #E0E0E0;
+}
+
+.toggle-menu-item.active {
+    background-color: #FEFEFE;
+}
+
+.toggle-menu-item:hover .toggle-menu-name {
+    display: block;
+}
+
+.toggle-menu-icon {
+    display: inline-block;
+    font-size: 16px;
+}
+
+.toggle-menu-name {
+    position: absolute;
+    right: -90px;
+    width: 60px;
+    padding: 0px 10px;
+    z-index: 5;
+    top: 0px;
+    background-color: #000000;
+    color: #FFFFFF;
+    border-radius: 4px;
+    display: none;
+}
+
+.toggle-menu-name-icon {
+    position: absolute;
+    left: -5px;
+    color: #000000;
+    top: 8px;
+}

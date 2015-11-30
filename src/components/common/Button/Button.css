@@ -1,0 +1,17 @@
+.button {
+    composes: btn-primary from '../style/button.css';
+    height: 30px;
+    line-height: 30px;
+    user-select: none;
+}
+
+.button i {
+    margin-right: 5px;
+}
+
+.button-disabled{
+    composes : btn-disabled from '../style/button.css';
+    height: 30px;
+    line-height: 30px;
+    user-select: none;
+}

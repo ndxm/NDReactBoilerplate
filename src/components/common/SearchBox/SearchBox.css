@@ -1,0 +1,35 @@
+.search-box{
+    position: absolute;
+    left: 0px;
+    background-color: rgba(0,0,0,.85);
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    padding: 20px 25px;
+    width: 310px;
+    z-index: 3;
+}
+.search-input{
+    display: inline-block;
+    background-color:#c40000 ;
+    padding: 2px;
+    border-radius: 2px;
+}
+.input{
+    height: 30px;
+    padding: 3px 5px;
+    box-sizing: border-box;
+    line-height: 25px;
+    width: 250px;
+    background-color: rgba(255,255,255,1);
+    border:0px;
+    border-radius: 2px;
+}
+.search-btn{
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    width: 50px;
+    text-align: center;
+    color:#fff ;
+}
+

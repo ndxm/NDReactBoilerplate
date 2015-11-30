@@ -1,0 +1,244 @@
+/*字体样式*/
+@import url('./font-icon/css/font-awesome.min.css');
+/*日期输入框*/
+/*@import url('Datepicker.css');*/
+/*表格样式*/
+@import url('table.css');
+/*表单样式*/
+@import url('form.css');
+@import url('steps.css');
+/*弹出框*/
+@import url('pop-dialog.css');
+
+body, h1, h2, h3, p, div, ol, ul, li, input, button, image, blockquote {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", "STHeitiSC-Light", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+    font-size: 14px;
+    background-color: #FFFFFF;
+    width: 100%;
+}
+
+article, aside, details, figcaption, figure, footer, header, menu, nav, section, ul {
+    display: block;
+}
+
+input, textarea, keygen, select, button {
+    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", "STHeitiSC-Light", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+    margin: 0px;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    outline: none;
+}
+
+input[type=text] {
+    font-size: 14px;
+}
+
+ol, ul {
+    list-style: none
+}
+
+a {
+    text-decoration: none;
+    tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+button, textarea, img {
+    border: none;
+    background: transparent;
+}
+
+ol, ul {
+    list-style: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+hr {
+    border-width: 0;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #222;
+    margin: 0;
+    height: 0;
+    clear: both;
+}
+
+.bg-fff {
+    background-color: #ffffff;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearfix:after {
+    content: ' ';
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+.mt0 {
+    margin-top: 0px !important;
+}
+
+.mt05 {
+    margin-top: 5px !important;
+}
+
+.mt10 {
+    margin-top: 10px !important;
+}
+
+.mt15 {
+    margin-top: 15px !important;
+}
+
+.mt20 {
+    margin-top: 20px !important;
+}
+
+.mt25 {
+    margin-top: 25px !important;
+}
+
+.mt30 {
+    margin-top: 30px !important;
+}
+
+.mb0 {
+    margin-bottom: 0px !important;
+}
+
+.ml05 {
+    margin-left: 5px;
+}
+
+.ml10 {
+    margin-left: 10px;
+}
+
+.ml20 {
+    margin-left: 20px;
+}
+
+.ml30 {
+    margin-left: 30px;
+}
+
+.mask {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+}
+
+.hide {
+    display: none;
+}
+
+#root {
+    height: 100%;
+    width: 100%;
+}
+
+.content {
+    height: 100%;
+}
+
+.main-content {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: #ffffff;
+    min-width: 1130px;
+    overflow: hidden;
+}
+
+/*location*/
+.location {
+    height: 34px;
+    line-height: 34px;
+    color: #333;
+    background-color: #F1F5F8;
+    padding-left: 20px;
+    font-size: 14px;
+
+}
+
+.location-name {
+    color: #555;
+    margin: 0px 5px;
+}
+
+.location a:hover {
+    text-decoration: underline;
+}
+.location_border{
+    border-bottom-style:ridge;
+}
+
+/*操作按钮栏*/
+.tool-bar {
+    /*background-color: #F5F5F5;*/
+    border-bottom: 1px solid RGBA(201, 216, 219, 0.5);
+    padding: 5px 20px;
+}
+
+.tool-bar-info {
+    display: inline-block;
+    height: 28px;
+    line-height: 28px;
+    padding: 0px 30px;
+    background-color: #f2fddb;
+    margin-left: 20px;
+}
+
+.disable-button {
+    background-color: #FFFFFF !important;
+    color: #999999 !important;;
+    border-color: #cccccc !important;;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+    height: 10px
+}
+
+::-webkit-scrollbar-thumb {
+    /* border-radius:2px; */
+    background: #9598a7
+}
+
+::-webkit-scrollbar-track {
+    /* background:#e3e3e3 */
+}
+
+::-ms-clear {
+    display: none
+}
+
+::-ms-reveal {
+    display: none
+}

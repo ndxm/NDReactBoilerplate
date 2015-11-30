@@ -1,0 +1,52 @@
+
+.dialog {
+    background-color: #fff;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 2px;
+    border: 4px solid rgba(0,0,0,.4);
+}
+.dialog-title{
+    height: 35px;
+    line-height: 35px;
+    background-color: #f3f3f3;
+    padding-left: 10px;
+    font-size: 14px;
+    border-bottom: 1px solid #e5e5e5;
+    position: relative;
+}
+.close{
+    position: absolute ;
+    right: 10px;
+    top: 0px;
+    font-size: 18px;
+    color: #AAAAAA;
+}
+.close:hover{
+    color: #666666;
+}
+.dialog-message {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 30px 30px 10px;
+
+}
+.dialog-btns {
+    margin: 20px 0px;
+}
+
+.btn-cancel{
+    composes : btn-primary from '../style/button.css';
+    width:100px;
+    margin-right: 10px;
+}
+.btn-confirm{
+    composes : btn-blue from '../style/button.css';
+    width:100px;
+    margin-left: 10px;
+    text-align: center;
+}
+.message-content{ padding: 30px 50px 10px;}
+.center{ text-align: center;}

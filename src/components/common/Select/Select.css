@@ -1,0 +1,68 @@
+.select-box{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    user-select: none;
+}
+.input-box{
+    position: relative;
+    display:inline-block;
+    width:calc( 100% - 2px );
+    border: 1px solid #BAC7D2;
+    border-radius: 2px;
+    background-color: #efefef;
+}
+.select-value{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    padding:0px 8px;
+    border: none;
+    box-sizing: border-box;
+    z-index: 1;
+    background-color: #fff;
+    box-shadow: 0 1px 3px #ddd inset;
+}
+.init{ color: #999;}
+.select-key{
+    width: 100%;
+    padding: 0px 8px;
+    box-sizing: border-box;
+    border: none;
+}
+.select-btn{
+    position:absolute;
+    right: 0px;
+    top: 0px;
+    text-align: center;
+    width: 25px;
+    border-left:1px solid #BAC7D2 ;
+    z-index: 2;
+}
+.select-btn:hover{
+    cursor: pointer;
+}
+.select-btn i{
+    color: #CCCCCC;
+    font-size: 13px;
+}
+.drop-outter{
+    overflow-y: auto;
+    max-height: 300px;
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 1px 3px #CAB4DD;
+    border-top: 0px;
+    position: absolute;
+    z-index: 3;
+}
+.drop-item{
+    background-color: #fff;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 5px;
+}
+.drop-item:first-child{
+}
+.drop-item:hover,.drop-item.selected{ background-color: #efefef; cursor: pointer;}

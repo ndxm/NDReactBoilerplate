@@ -1,0 +1,35 @@
+.switch{
+    background-color: #ccc;
+    /* border: 1px solid #d1d0d0; */
+    position: relative;
+    display: inline-block;
+    width: 48px;
+    height: 21px;
+    border-radius: 20px;
+    padding: 1px;
+    /* box-shadow: inset 0 3px 8px 1px rgba(0,0,0,.2),0 1px 0 hsla(0,0%,100%,.5); */
+}
+.switch:hover{
+    cursor:pointer;
+}
+.on{
+    background-color: #5cc25b;
+}
+.switch-btn{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    position: absolute;
+    left: 3px;
+    top: 1px;
+    -webkit-transition: left .3s;
+    transition: left .3s;
+    /* border: 1px solid #d5d5d5; */
+    background: #FFFFFF;
+    /* background: linear-gradient(#f7f2f6,#b2ac9e); */
+    /* box-shadow: inset 0 1px 0 #fff,0 0 8px rgba(0,0,0,.3),0 5px 5px rgba(0,0,0,.2); */
+}
+.on .switch-btn{
+    left: 28px;
+}

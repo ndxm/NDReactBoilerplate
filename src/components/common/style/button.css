@@ -1,0 +1,56 @@
+.btn {
+    height: 35px;
+    line-height: 35px;
+    border-radius: 4px;
+    padding: 0 15px;
+    display: inline-block;
+    text-align: center;
+    user-select: none;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.btn-primary {
+    composes : btn;
+    border: 1px solid #8BC1F0;
+    background-color: #5CA2DF;
+    background-repeat: repeat-x;
+    color: #FFFFFF;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+    border: 1px solid #5CA2DF;
+    background-color:#93CDFF ;
+    color: #FFFFFF;
+    transition: all 0.3s ease;
+}
+
+.btn-blue {
+    composes : btn;
+    border: 1px solid #1D80CF;
+    background: #80C3F7;
+    background-image: -webkit-linear-gradient(top, #0e7bef, #0d73da);
+    background-repeat: repeat-x;
+    color: #fff;
+}
+
+.btn-blue:active, .btn-blue:focus, .btn-blue:hover {
+    background-image: -webkit-linear-gradient(top, #086ed5, #055db5);
+    background-repeat: repeat-x;
+}
+
+.btn-disabled{
+    composes : btn;
+    border: 1px solid #E4E4E4;
+    background-image: -webkit-linear-gradient(top, #EBEBEB, #E4E4E4);
+    background-repeat: repeat-x;
+    color: #BBB8B8;
+}
+
+.btn-cancel{
+    composes : btn;
+    border: 1px solid #DBDBDB;
+    background-image: -webkit-linear-gradient(top, #ccc, #aaa);
+    background-repeat: repeat-x;
+    color: #fff;
+}

@@ -1,0 +1,77 @@
+.FileuploadBox {
+    display: inline-block;
+    width: 100%;
+
+}
+
+.fileinput {
+    display: none;
+}
+.box-inner{
+    width: calc(100% - 167px);
+}
+.textinput {
+    display: inline-block;
+    border: 1px solid #e0e0e0;
+    background-color: #fff;
+    padding: 5px 8px;
+    height: 35px;
+    line-height: 25px;
+    box-sizing: border-box;
+    padding-right: 26px;
+    width: 100%;
+}
+
+.box-inner {
+    display: inline-block;
+    position: relative;
+}
+
+.add-file {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    text-align: center;
+    margin-top: 1px;
+    line-height: 33px;
+    height: 33px;
+    width: 25px;
+    border-left: 1px solid #e0e0e0;
+    right: 1px;
+    background-color: #efefef;
+    z-index: 2;
+}
+
+.add-file i {
+    color: #CCCCCC;
+    font-size: 13px;
+}
+
+.add-file:hover {
+    background-color: #e0e0e0;
+}
+
+.add-file:hover i {
+    color: #999;
+}
+
+.upload-file {
+    height: 32px;
+    line-height: 32px;
+    border: 1px solid #E0E0E0;
+    display: inline-block;
+    background-image: -webkit-linear-gradient(top, #f9f9f9, #e7e9eb);
+    background-repeat: repeat-x;
+    color: #333;
+    padding: 0px 10px;
+    margin-left: 20px;
+}
+
+.upload-file:hover{
+    background-image: -webkit-linear-gradient(top, #EAE8E8, #F2F5F7);
+    background-repeat: repeat-x;
+}
+
+.result{  display: inline-block; height: 35px; line-height: 35px; width: 60px; font-style: normal; float: right; padding: 0px 5px;}
+.error{ color: #aa0000; }
+.success{ color:#87d068;background-color: #f3faf0; }

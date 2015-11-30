@@ -1,0 +1,28 @@
+.col1 {
+    width: 15%;
+}
+
+.col2 {
+    width: 18%;
+}
+
+.col3 {
+    width: 15%;
+}
+
+.col4 {
+    width: 15%;
+}
+
+.col5 {
+    width: 10%;
+}
+
+.pager {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.list-table-body {
+    height: calc(100% - 80px);
+}

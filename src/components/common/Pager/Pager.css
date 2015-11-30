@@ -1,0 +1,33 @@
+.pager{
+    border-radius: 2px;
+    display: inline-block;
+}
+.pageitem{
+    display: inline-block;
+    height: 28px;
+    width: 28px;
+    line-height: 28px;
+    text-align: center;
+    border: 1px solid #D5DADD;
+    color:#1298C9;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+ a.n{
+    width: auto;
+    padding: 0px 18px;
+}
+a.pageitem:hover{
+    background-color: RGBA(201,216,219,0.2);
+    color: #fff;
+}
+span.pageitem{
+    background-color:#e0e0e0 ;
+}
+.pager a:hover{
+    background-color: #E5E5E5;
+    color: #2db7f5;;
+}
+.recordInfo{ margin-left: 20px;}
+.recordInfo em{ color:#0066CC;}

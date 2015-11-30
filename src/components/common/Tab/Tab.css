@@ -1,0 +1,45 @@
+.Tab {
+    height: 35px;
+    border-bottom: 1px solid #d9dadc;
+    position: relative;
+}
+
+.links {
+    position: absolute;
+    top: 1px;
+    left: 0px;
+}
+
+.Tab a {
+    height: 32px;
+    line-height:32px;
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    color: #00A0E8;
+    margin-left: 20px;
+    border:1px solid #d9dadc;
+    border-bottom: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    user-select: none;
+}
+
+.Tab a:hover {
+    background: #eff6fa;
+}
+
+.Tab a.active {
+    color: #1298C9;
+    background: #FFFFFF;
+    border-bottom: 0px;
+    height: 34px;
+    line-height: 34px;
+    font-weight: bold;
+}
+
+.Tab a.disabled{
+    color: #cccccc;
+    font-weight: normal;
+    background-color: #eeeeee;
+}

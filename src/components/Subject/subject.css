@@ -1,0 +1,32 @@
+.filter{
+    padding:10px 15px;
+    white-space: nowrap;
+    position: relative; 
+}
+.row{
+
+}
+.title{
+    margin: 0;
+    margin-right: 5px;
+    font-size: 100%;
+    line-height: 24px;
+    display: inline-block;
+    color: #333;
+}
+.tags{
+
+}
+.label{
+    display: inline-block;
+    line-height: 24px;
+    height: 24px;
+    padding: 0 7px;
+    margin-right: 5px;
+    border-radius: 5px;
+    font-size: 100%;
+    color: #888;
+    background: none;
+    cursor: pointer;
+    text-align: left;
+}
